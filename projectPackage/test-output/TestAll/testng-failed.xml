@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TestAll]">
+  <test thread-count="5" name="order(failed)">
+    <classes>
+      <class name="testNGPackage.TestDatabase">
+        <methods>
+          <include name="testConnectMsSQL"/>
+          <include name="testConnectMySQL"/>
+          <include name="testConnectOracle"/>
+          <include name="testConnectMongoDB"/>
+        </methods>
+      </class> <!-- testNGPackage.TestDatabase -->
+      <class name="testNGPackage.ParallelTest">
+        <methods>
+          <include name="login_TestCase"/>
+          <include name="search_TestCase"/>
+          <include name="openBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- testNGPackage.ParallelTest -->
+      <class name="testNGPackage.TestOrder">
+        <methods>
+          <include name="testFindOrder"/>
+          <include name="testUpdateOrder"/>
+          <include name="testMakeOrder"/>
+          <include name="testMakeEmptyOrder"/>
+        </methods>
+      </class> <!-- testNGPackage.TestOrder -->
+      <class name="testNGPackage.testclass">
+        <methods>
+          <include name="test"/>
+        </methods>
+      </class> <!-- testNGPackage.testclass -->
+    </classes>
+  </test> <!-- order(failed) -->
+</suite> <!-- Failed suite [TestAll] -->

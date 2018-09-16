@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestAll" duration-ms="39" started-at="2018-09-03T18:43:13Z" finished-at="2018-09-03T18:43:13Z">
+    <groups>
+      <group name="orderBo">
+        <method signature="TestOrder.testFindOrder()[pri:0, instance:testNGPackage.TestOrder@198378d]" name="testFindOrder" class="testNGPackage.TestOrder"/>
+        <method signature="TestOrder.testMakeEmptyOrder()[pri:0, instance:testNGPackage.TestOrder@198378d]" name="testMakeEmptyOrder" class="testNGPackage.TestOrder"/>
+        <method signature="TestOrder.testMakeOrder()[pri:0, instance:testNGPackage.TestOrder@198378d]" name="testMakeOrder" class="testNGPackage.TestOrder"/>
+        <method signature="TestOrder.testUpdateOrder()[pri:0, instance:testNGPackage.TestOrder@198378d]" name="testUpdateOrder" class="testNGPackage.TestOrder"/>
+      </group> <!-- orderBo -->
+      <group name="save">
+        <method signature="TestOrder.testMakeEmptyOrder()[pri:0, instance:testNGPackage.TestOrder@198378d]" name="testMakeEmptyOrder" class="testNGPackage.TestOrder"/>
+        <method signature="TestOrder.testMakeOrder()[pri:0, instance:testNGPackage.TestOrder@198378d]" name="testMakeOrder" class="testNGPackage.TestOrder"/>
+      </group> <!-- save -->
+    </groups>
+    <test name="order" duration-ms="39" started-at="2018-09-03T18:43:13Z" finished-at="2018-09-03T18:43:13Z">
+      <class name="testNGPackage.TestConfig">
+        <test-method status="PASS" signature="testBeforeSuite()[pri:0, instance:testNGPackage.TestConfig@19e13df]" name="testBeforeSuite" is-config="true" duration-ms="9" started-at="2018-09-03T18:43:13Z" finished-at="2018-09-03T18:43:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBeforeSuite -->
+        <test-method status="PASS" signature="testBeforeTest()[pri:0, instance:testNGPackage.TestConfig@19e13df]" name="testBeforeTest" is-config="true" duration-ms="1" started-at="2018-09-03T18:43:13Z" finished-at="2018-09-03T18:43:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBeforeTest -->
+        <test-method status="PASS" signature="testAfterTest()[pri:0, instance:testNGPackage.TestConfig@19e13df]" name="testAfterTest" is-config="true" duration-ms="0" started-at="2018-09-03T18:43:13Z" finished-at="2018-09-03T18:43:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAfterTest -->
+        <test-method status="PASS" signature="testAfterSuite()[pri:0, instance:testNGPackage.TestConfig@19e13df]" name="testAfterSuite" is-config="true" duration-ms="0" started-at="2018-09-03T18:43:13Z" finished-at="2018-09-03T18:43:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAfterSuite -->
+      </class> <!-- testNGPackage.TestConfig -->
+      <class name="testNGPackage.TestOrder">
+        <test-method status="PASS" signature="testFindOrder()[pri:0, instance:testNGPackage.TestOrder@198378d]" name="testFindOrder" duration-ms="4" started-at="2018-09-03T18:43:13Z" finished-at="2018-09-03T18:43:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFindOrder -->
+        <test-method status="PASS" signature="testMakeEmptyOrder()[pri:0, instance:testNGPackage.TestOrder@198378d]" name="testMakeEmptyOrder" duration-ms="1" started-at="2018-09-03T18:43:13Z" finished-at="2018-09-03T18:43:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMakeEmptyOrder -->
+        <test-method status="PASS" signature="testMakeOrder()[pri:0, instance:testNGPackage.TestOrder@198378d]" name="testMakeOrder" duration-ms="1" started-at="2018-09-03T18:43:13Z" finished-at="2018-09-03T18:43:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMakeOrder -->
+        <test-method status="PASS" signature="testUpdateOrder()[pri:0, instance:testNGPackage.TestOrder@198378d]" name="testUpdateOrder" duration-ms="2" started-at="2018-09-03T18:43:13Z" finished-at="2018-09-03T18:43:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateOrder -->
+      </class> <!-- testNGPackage.TestOrder -->
+    </test> <!-- order -->
+  </suite> <!-- TestAll -->
+</testng-results>
